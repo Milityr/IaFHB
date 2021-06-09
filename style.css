@@ -1,10 +1,61 @@
 #HousesDisplay {
 width: 20vw;
-background-color: grey;
+background-color: rgba(255, 255, 255, 0.5);
+margin-top: -20;
+border: black solid 3px;
+left: 30%;
+top:10%;
+position: fixed;
 }
-#CD {
-    background-color: cadetblue;
+#HousesDisplay p{
+color: blue;
+}
+#HousesDisplay p:hover {
+color: cornflowerblue;
+font-weight: bold;
+}
+#characterDisplay {
+    background-color: rgba(140, 230, 230, 0.5);
+    top: 10%;
+    left: 60%;
+    position: fixed;
 }
 div{
     display: inline-block;
+}
+p {
+    margin: 0;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+h1{
+    color: white;
+    position: fixed;
+    left: 45%;
+}
+#pagination{
+    position: fixed;
+    left: 30%;
+    top: 40%;
+}
+button{
+    width: 50px;
+    margin-left: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid white;
+}
+button:hover{
+    background-color: rgb(100, 196, 237);
+    font-weight: bold;
+}
+button:active{
+    background-color: rgb(100, 100, 237);
+}
+h3{
+    color: white;
+    position: fixed;
+    left: 35%;
 }
